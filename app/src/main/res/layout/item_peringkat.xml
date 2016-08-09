@@ -1,0 +1,46 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="2dp"
+    android:elevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/fotoTeman"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/profile_pict" />
+
+        <TextView
+            android:id="@+id/userFirstNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/fotoTeman"
+            android:text="Nama Teman"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/peringkatTeman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="1"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

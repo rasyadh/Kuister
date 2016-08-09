@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Waktu">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:summary="@string/pref_description_waktu_otomatis"
+            android:title="@string/pref_title_waktu_otomatis" />
+
+        <ListPreference
+            android:title="@string/pref_title_zona_waktu"
+            android:defaultValue="true"
+            android:entries="@array/pref_list_zona_waktu"
+            android:entryValues="@array/pref_list_values_zona_waktu"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Alarm">
+        <ListPreference
+            android:title="@string/pref_title_alarm"
+            android:defaultValue="true"
+            android:entries="@array/pref_list_alarm_time"
+            android:entryValues="@array/pref_list_value_alarm"/>
+
+        <ListPreference
+            android:title="@string/pref_title_snooze"
+            android:defaultValue="true"
+            android:entries="@array/pref_list_snooze_time"
+            android:entryValues="@array/pref_list_value_snooze" />
+
+        <ListPreference
+            android:title="@string/pref_title_voice_alarm"
+            android:defaultValue="true"
+            android:entries="@array/pref_list_voice_alarm"
+            android:entryValues="@array/pref_list_value_voice" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Akun">
+        <Preference
+            android:title="Hubungkan dengan Facebook"
+            android:summary="Rasyadh Abdul Aziz"/>
+    </PreferenceCategory>
+</PreferenceScreen>

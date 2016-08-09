@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools">
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/shareGplus"
+                android:icon="@drawable/ic_gplus"
+                android:title="Google Plus"/>
+            <item android:id="@+id/shareTwitter"
+                android:icon="@drawable/ic_twitter"
+                android:title="Twitter"/>
+            <item android:id="@+id/shareFacebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="Facebook"/>
+        </menu>
+    </item>
+</menu>

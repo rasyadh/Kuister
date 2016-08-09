@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Kuister</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_main">Kuister</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_info">Info Aplikasi</string>
+    <string name="title_activity_pengaturan">Pengaturan</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="title_activity_edit_profil">Edit Profil</string>
+    <string name="title_activity_peringkat">Peringkat</string>
+    <string name="title_activity_teman">Teman</string>
+    <string name="title_activity_bantuan">Bantuan</string>
+    <string name="title_activity_soal">Soal</string>
+    <string name="title_activity_hasil_soal">Hasil Soal</string>
+
+    <!-- Strings related to PreferenceSettings -->
+    <string name="pref_title_waktu_otomatis">Waktu Otomatis</string>
+    <string name="pref_description_waktu_otomatis">Zona waktu dapat diatur untuk berubah secara otomatis menyesuaikan zona saat itu</string>
+
+    <string name="pref_title_zona_waktu">Zona Waktu</string>
+    <string-array name="pref_list_zona_waktu">
+        <item>(GMT+7:00) Krasnoyarsk</item>
+        <item>(GMT+7:00) Bangkok</item>
+        <item>(GMT+7:00) Jakarta</item>
+        <item>(GMT+8:00) Beijing</item>
+        <item>(GMT+8:00) Hongkong</item>
+        <item>(GMT+7:00) Kuala Lumpur</item>
+    </string-array>
+    <string-array name="pref_list_values_zona_waktu">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="pref_title_alarm">Diam Setelah</string>
+    <string-array name="pref_list_alarm_time">
+        <item>5 Menit</item>
+        <item>10 Menit</item>
+        <item>15 Menit</item>
+        <item>20 Menit</item>
+        <item>Tidak Pernah</item>
+    </string-array>
+    <string-array name="pref_list_value_alarm">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="pref_title_snooze">Waktu Tidur</string>
+    <string-array name="pref_list_snooze_time">
+        <item>5 Menit</item>
+        <item>10 Menit</item>
+        <item>15 Menit</item>
+        <item>20 Menit</item>
+    </string-array>
+    <string-array name="pref_list_value_snooze">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_title_voice_alarm">Suara Alarm</string>
+    <string-array name="pref_list_voice_alarm">
+        <item>Helium</item>
+        <item>Krypton</item>
+        <item>Neon</item>
+        <item>Oxygen</item>
+    </string-array>
+    <string-array name="pref_list_value_voice">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Fragment Kuis Sekarang -->
+    <string name="fragment_name1">Kuis Sekarang</string>
+    <string name="tab1">Tingkat Pendidikan</string>
+
+    <string name="fragment_name2">Atur Waktu Kuis</string>
+    <string name="tab2">Tab2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Spinner Tingkat Pendidikan -->
+    <string-array name="spinner_tingkat_pendidikan">
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+    </string-array>
+
+    <!-- Spinner Gender -->
+    <string-array name="spinner_gender">
+        <item>Tidak Ada</item>
+        <item>Laki - Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string name="action_edit">Edit</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/main_item">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_profil"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_kuis_sekarang"
+            android:icon="@drawable/ic_kuis_sekarang"
+            android:title="Kuis Sekarang" />
+        <item
+            android:id="@+id/nav_atur_Waktu_Kuis"
+            android:icon="@drawable/ic_atur_waktu_kuis"
+            android:title="Atur Waktu Kuis" />
+    </group>
+
+    <group android:id="@+id/sosial_item">
+        <item
+            android:id="@+id/nav_teman"
+            android:icon="@drawable/ic_teman"
+            android:title="Teman" />
+        <item
+            android:id="@+id/nav_peringkat"
+            android:icon="@drawable/ic_peringkat"
+            android:title="Peringkat" />
+    </group>
+
+    <group android:id="@+id/setting_item">
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/ic_pengaturan"
+            android:title="Pengaturan" />
+        <item
+            android:id="@+id/nav_bantuan"
+            android:icon="@drawable/ic_bantuan"
+            android:title="Bantuan dan Saran" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="Info Aplikasi" />
+        <item
+            android:id="@+id/nav_keluar"
+            android:icon="@drawable/ic_keluar"
+            android:title="Keluar" />
+    </group>
+</menu>

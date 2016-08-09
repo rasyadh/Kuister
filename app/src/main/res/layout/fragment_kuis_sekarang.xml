@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragment.KuisSekarangFragment">
+    <!-- app:layout_behavior="@string/appbar_scrolling_view_behavior" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab1"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner_tingkat_pendidikan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/spinner_tingkat_pendidikan"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_kuis_sekarang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
